@@ -1,0 +1,13 @@
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/CMakeFiles/gestion-de-biblioteca.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/CMakeFiles/edit_cache.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/CMakeFiles/rebuild_cache.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/CMakeFiles/edit_cache.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/CMakeFiles/rebuild_cache.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/biblioteca/CMakeFiles/biblioteca_lib.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/biblioteca/CMakeFiles/edit_cache.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/biblioteca/CMakeFiles/rebuild_cache.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/util/CMakeFiles/util_lib.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/util/CMakeFiles/edit_cache.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/util/CMakeFiles/rebuild_cache.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/tests/CMakeFiles/edit_cache.dir
+C:/Users/gonza/Desktop/gestion-de-biblioteca/build/tests/CMakeFiles/rebuild_cache.dir

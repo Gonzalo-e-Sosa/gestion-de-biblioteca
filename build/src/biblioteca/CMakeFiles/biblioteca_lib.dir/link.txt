@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libbiblioteca_lib.a CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libbiblioteca_lib.a

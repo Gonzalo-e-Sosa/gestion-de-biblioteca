@@ -1,0 +1,1 @@
+add_library(biblioteca_lib Usuario.cpp Libro.cpp)

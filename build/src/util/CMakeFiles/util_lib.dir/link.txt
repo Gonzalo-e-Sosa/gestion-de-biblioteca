@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libutil_lib.a CMakeFiles/util_lib.dir/Database.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libutil_lib.a

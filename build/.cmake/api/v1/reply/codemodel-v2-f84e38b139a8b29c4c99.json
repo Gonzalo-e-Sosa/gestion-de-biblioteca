@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/biblioteca",
+					"jsonFile" : "directory-src.biblioteca-Debug-7c395540de0db74715e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/biblioteca",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/util",
+					"jsonFile" : "directory-src.util-Debug-115ba1e4bb25559e3768.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/util",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "gestion-de-biblioteca",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "biblioteca_lib::@bdf2aa0af3afd361d9b8",
+					"jsonFile" : "target-biblioteca_lib-Debug-e8fc391734305708de61.json",
+					"name" : "biblioteca_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gestion-de-biblioteca::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gestion-de-biblioteca-Debug-21d8298f25bb778ab822.json",
+					"name" : "gestion-de-biblioteca",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "util_lib::@6bc12a100e338ba65b7b",
+					"jsonFile" : "target-util_lib-Debug-4bc517abf046202ad89d.json",
+					"name" : "util_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/gonza/Desktop/gestion-de-biblioteca/build",
+		"source" : "C:/Users/gonza/Desktop/gestion-de-biblioteca"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
