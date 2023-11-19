@@ -1,6 +1,7 @@
 #include "../../include/biblioteca/Usuario.h"
 #include<stdexcept>
-#include<functional>
+#include<algorithm>
+#include<cctype>
 
 Usuario::Usuario(string dni, string nombre, string correo, string clave)
 : nombre(nombre)
@@ -13,13 +14,16 @@ Usuario::Usuario(string dni, string nombre, string correo, string clave)
 // Setters
 void Usuario::setDni(const string& nuevoDni){
     // Comprobar si el DNI es un número
+    if (!all_of(nuevoDni.begin(), nuevoDni.end(), ::isdigit)) {
+        throw invalid_argument("El DNI debe ser un número válido.");
+    }
+    
     char* end;
     long dni = strtol(nuevoDni.c_str(), &end, 10);
 
     // Verificar si toda la cadena se convirtió a un número y el puntero final apunta al final de la cadena
     if (*end != '\0' || errno == ERANGE) {
-        // Lanzar una excepción si la conversión no fue exitosa
-        throw std::invalid_argument("El DNI debe ser un número válido.");
+        throw invalid_argument("El DNI no es un número válido.");
     }
 
     this->dni = dni;
@@ -27,20 +31,40 @@ void Usuario::setDni(const string& nuevoDni){
 
 void Usuario::setNombre(const string& nuevoNombre)
 {
+    if (nuevoNombre.empty() || all_of(nuevoNombre.begin(), nuevoNombre.end(), ::isspace)) {
+        throw invalid_argument("El nombre no puede estar vacío");
+    }
+
+    if (nuevoNombre.length() < 3 || nuevoNombre.length() > 50) {
+        throw invalid_argument("La longitud del nombre debe estar entre 3 y 50 caracteres.");
+    }
+
+    if (!all_of(nuevoNombre.begin(), nuevoNombre.end(), ::isdigit)) {
+        throw invalid_argument("El nombre no puede contener solo números.");
+    }    
+
+    if (!all_of(nuevoNombre.begin(), nuevoNombre.end(), ::isalnum)) {
+        throw invalid_argument("El nombre debe contener letras y números.");
+    }
+    
     this->nombre = nuevoNombre;
 };
 
 void Usuario::setCorreo(const string& nuevoCorreo)
 {
     if(nuevoCorreo.find('@') == string::npos)
-       throw "El correo no posee arroba";
+       throw invalid_argument("El correo no posee arroba.");
 
     this->correo = nuevoCorreo;
 };
 
 void Usuario::setClave(const string& nuevaClave)
 {
-    return;    
+    if(!all_of(nuevaClave.begin(), nuevaClave.end(), ::isalnum))
+        throw invalid_argument("La clave debe contener letras y números.");
+    
+    
+    this->clave = nuevaClave;
 };
 
 // Clave

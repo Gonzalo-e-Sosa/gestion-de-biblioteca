@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdexcept": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "memory": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "cstdlib": "cpp"
+    }
+}

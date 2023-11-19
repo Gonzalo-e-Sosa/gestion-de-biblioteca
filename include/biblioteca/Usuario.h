@@ -5,11 +5,10 @@ using namespace std;
 class Usuario
 {
 private:
-    long dni;
+    int dni;
     string nombre;
     string correo;
     string clave;
-    /*date nacimiento -> incluir clase fecha*/
 
 public:
     // Inicialización
@@ -17,10 +16,9 @@ public:
     
 
     // Getters
-    inline long getDni() const { return this->dni; };
+    inline int getDni() const { return this->dni; };
     inline string getNombre() const { return this->nombre; };
     inline string getCorreo() const { return this->correo; };
-    inline string getClave() const { return this->clave; };
 
     // Setters
     void setDni(const string& nuevoDni);
@@ -47,3 +45,4 @@ public:
     // Destructor
     ~Usuario();
 };
+
