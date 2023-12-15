@@ -1,2 +1,2 @@
-C:\msys64\mingw64\bin\ar.exe qc libbiblioteca_lib.a CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj
+C:\msys64\mingw64\bin\ar.exe qc libbiblioteca_lib.a CMakeFiles/biblioteca_lib.dir/Autor.cpp.obj CMakeFiles/biblioteca_lib.dir/Categoria.cpp.obj CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.obj CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.obj CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj
 C:\msys64\mingw64\bin\ranlib.exe libbiblioteca_lib.a

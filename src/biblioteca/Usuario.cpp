@@ -4,9 +4,9 @@
 #include<cctype>
 
 Usuario::Usuario(string dni, string nombre, string correo, string clave)
-: nombre(nombre)
 {
     setDni(dni);
+    setNombre(nombre);
     setCorreo(correo);
     setClave(clave);
 }

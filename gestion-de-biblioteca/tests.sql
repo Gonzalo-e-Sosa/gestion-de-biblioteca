@@ -23,10 +23,10 @@ SELECT * FROM Seguridad.Categoria
 EXEC Cliente.agregarUsuario 111111111, 'NuevoUsuario', 'nuevousuario@example.com', 'clave123';
 
 -- Registros para probar agregarAutor
-EXEC Sistema.agregarAutor 'NuevoAutor';
+EXEC OperacionesBiblioteca.agregarAutor 'NuevoAutor';
 
 -- Registros para probar agregarCategoria
-EXEC Sistema.agregarCategoria 'NuevaCategoria', 'DescripciónNuevaCategoria';
+EXEC OperacionesBiblioteca.agregarCategoria 'NuevaCategoria', 'DescripciónNuevaCategoria';
 
 -- Ver inserciones
 
@@ -44,9 +44,74 @@ EXEC Sistema.buscarCategoria 'Categoria1', @categoriaID OUTPUT;
 SELECT @autorID, @categoriaID
 
 -- Agregar un libro con autor y categoría existentes
-EXEC Sistema.agregarLibro 'Libro1', 'Autor1', 'Categoria1', 200, '2023-01-01';
+EXEC OperacionesBiblioteca.agregarLibro 'Libro1', 'Autor1', 'Categoria1', 200, '2023-01-01';
 
 SELECT * FROM Seguridad.Libro
 
 -- Agregar un libro con un nuevo autor y nueva categoría
-EXEC Sistema.agregarLibro 'Libro2', 'NuevoAutor', 'NuevaCategoria', 150, '2023-02-01';
+EXEC OperacionesBiblioteca.agregarLibro 'Libro2', 'NuevoAutor', 'NuevaCategoria', 150, '2023-02-01';
+
+
+
+/*Maxima cantidad de paginas en general*/
+
+SELECT 
+    L.titulo AS [Titulo],
+    A.nombre AS [Autor],
+    C.nombre AS [Categoria],
+    L.fechaPublicacion AS [Fecha de Publicacion],
+    L.cantpag AS [Paginas],
+    MAX(cantpag) OVER() AS MaxPag
+FROM Seguridad.Libro L
+JOIN Seguridad.Autor A 
+    ON L.autorID = A.autorID
+JOIN Seguridad.Categoria C
+    ON L.categoriaID = C.categoriaID
+
+
+/*Maxima cantidad de paginas para una fecha*/
+
+SELECT 
+    L.titulo AS [Titulo],
+    A.nombre AS [Autor],
+    C.nombre AS [Categoria],
+    L.fechaPublicacion AS [Fecha de Publicacion],
+    L.cantpag AS [Paginas],
+    MAX(cantpag) OVER(PARTITION BY L.fechaPublicacion) AS MaxPagParaFecha
+FROM Seguridad.Libro L
+JOIN Seguridad.Autor A 
+    ON L.autorID = A.autorID
+JOIN Seguridad.Categoria C
+    ON L.categoriaID = C.categoriaID
+
+/*Max cantidad de paginas para una categoria*/
+
+SELECT 
+    L.titulo AS [Titulo],
+    A.nombre AS [Autor],
+    C.nombre AS [Categoria],
+    L.fechaPublicacion AS [Fecha de Publicacion],
+    L.cantpag AS [Paginas],
+    MAX(L.cantpag) OVER(PARTITION BY C.nombre) AS MaxCantPagPorCategoria
+FROM Seguridad.Libro L
+JOIN Seguridad.Autor A 
+    ON L.autorID = A.autorID
+JOIN Seguridad.Categoria C
+    ON L.categoriaID = C.categoriaID
+
+
+/*Max cantidad de usuarios creados para cada fecha (dia)*/
+
+WITH CantidadUsuarios(FechaCreacion, Cantidad) AS
+(
+    SELECT 
+    CAST(fechaCreacion AS DATE),
+    COUNT(1) OVER(PARTITION BY CAST(fechaCreacion AS DATE))
+    FROM Seguridad.Usuario
+)
+SELECT 
+FechaCreacion AS [Fecha de Creacion], Cantidad
+FROM CantidadUsuarios
+GROUP BY FechaCreacion, Cantidad
+
+select * from Seguridad.Usuario

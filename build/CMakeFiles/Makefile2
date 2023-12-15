@@ -148,7 +148,7 @@ tests/clean:
 CMakeFiles/gestion-de-biblioteca.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gestion-de-biblioteca.dir\build.make CMakeFiles/gestion-de-biblioteca.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gestion-de-biblioteca.dir\build.make CMakeFiles/gestion-de-biblioteca.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=4,5 "Built target gestion-de-biblioteca"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=8,9 "Built target gestion-de-biblioteca"
 .PHONY : CMakeFiles/gestion-de-biblioteca.dir/all
 
 # Build rule for subdir invocation for target.
@@ -174,12 +174,12 @@ CMakeFiles/gestion-de-biblioteca.dir/clean:
 src/biblioteca/CMakeFiles/biblioteca_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=1,2,3 "Built target biblioteca_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target biblioteca_lib"
 .PHONY : src/biblioteca/CMakeFiles/biblioteca_lib.dir/all
 
 # Build rule for subdir invocation for target.
 src/biblioteca/CMakeFiles/biblioteca_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/biblioteca/CMakeFiles/biblioteca_lib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles 0
 .PHONY : src/biblioteca/CMakeFiles/biblioteca_lib.dir/rule
@@ -200,7 +200,7 @@ src/biblioteca/CMakeFiles/biblioteca_lib.dir/clean:
 src/util/CMakeFiles/util_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\util\CMakeFiles\util_lib.dir\build.make src/util/CMakeFiles/util_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\util\CMakeFiles\util_lib.dir\build.make src/util/CMakeFiles/util_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=6,7 "Built target util_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=10,11 "Built target util_lib"
 .PHONY : src/util/CMakeFiles/util_lib.dir/all
 
 # Build rule for subdir invocation for target.

@@ -7,15 +7,39 @@
 },
 {
   "directory": "C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/biblioteca",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\biblioteca_lib.dir\\Usuario.cpp.obj -c C:\\Users\\gonza\\Desktop\\gestion-de-biblioteca\\src\\biblioteca\\Usuario.cpp",
-  "file": "C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Usuario.cpp",
-  "output": "src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\biblioteca_lib.dir\\Autor.cpp.obj -c C:\\Users\\gonza\\Desktop\\gestion-de-biblioteca\\src\\biblioteca\\Autor.cpp",
+  "file": "C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Autor.cpp",
+  "output": "src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.obj"
+},
+{
+  "directory": "C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/biblioteca",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\biblioteca_lib.dir\\Categoria.cpp.obj -c C:\\Users\\gonza\\Desktop\\gestion-de-biblioteca\\src\\biblioteca\\Categoria.cpp",
+  "file": "C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Categoria.cpp",
+  "output": "src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.obj"
+},
+{
+  "directory": "C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/biblioteca",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\biblioteca_lib.dir\\Ejemplar.cpp.obj -c C:\\Users\\gonza\\Desktop\\gestion-de-biblioteca\\src\\biblioteca\\Ejemplar.cpp",
+  "file": "C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Ejemplar.cpp",
+  "output": "src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.obj"
 },
 {
   "directory": "C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/biblioteca",
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\biblioteca_lib.dir\\Libro.cpp.obj -c C:\\Users\\gonza\\Desktop\\gestion-de-biblioteca\\src\\biblioteca\\Libro.cpp",
   "file": "C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Libro.cpp",
   "output": "src/biblioteca/CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj"
+},
+{
+  "directory": "C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/biblioteca",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\biblioteca_lib.dir\\Prestamo.cpp.obj -c C:\\Users\\gonza\\Desktop\\gestion-de-biblioteca\\src\\biblioteca\\Prestamo.cpp",
+  "file": "C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Prestamo.cpp",
+  "output": "src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.obj"
+},
+{
+  "directory": "C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/biblioteca",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\biblioteca_lib.dir\\Usuario.cpp.obj -c C:\\Users\\gonza\\Desktop\\gestion-de-biblioteca\\src\\biblioteca\\Usuario.cpp",
+  "file": "C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Usuario.cpp",
+  "output": "src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj"
 },
 {
   "directory": "C:/Users/gonza/Desktop/gestion-de-biblioteca/build/src/util",

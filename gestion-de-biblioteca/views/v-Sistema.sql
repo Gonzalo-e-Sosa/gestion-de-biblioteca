@@ -19,7 +19,8 @@ AS
         dni AS [DNI],
         nombre AS [Usuario],
         correo AS [Correo],
-        fechaCreacion AS [Fecha de Creación]
+        fechaCreacion AS [Fecha de Creación],
+        activo AS [Activo]
     FROM Seguridad.Usuario
 GO
 
@@ -40,8 +41,8 @@ AS
     SELECT 
         P.fechaPrestamo AS [Fecha de Prestamo],
         P.fechaVencimiento AS [Fecha de Vencimiento],
-        P.vencido AS [Vencido],
         P.fechaDevolucion AS [Fecha de Devolución],
+        P.vencido AS [Vencido],
         U.dni AS [DNI],
         U.nombre AS [Usuario],
         L.titulo AS [Libro]

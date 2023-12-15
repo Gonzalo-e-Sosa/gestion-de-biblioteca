@@ -68,24 +68,52 @@ include src/biblioteca/CMakeFiles/biblioteca_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/biblioteca/CMakeFiles/biblioteca_lib.dir/flags.make
 
-src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/flags.make
-src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj: C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Usuario.cpp
-src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj"
-	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj -MF CMakeFiles\biblioteca_lib.dir\Usuario.cpp.obj.d -o CMakeFiles\biblioteca_lib.dir\Usuario.cpp.obj -c C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Usuario.cpp
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/flags.make
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.obj: C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Autor.cpp
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.obj"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.obj -MF CMakeFiles\biblioteca_lib.dir\Autor.cpp.obj.d -o CMakeFiles\biblioteca_lib.dir\Autor.cpp.obj -c C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Autor.cpp
 
-src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/biblioteca_lib.dir/Usuario.cpp.i"
-	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Usuario.cpp > CMakeFiles\biblioteca_lib.dir\Usuario.cpp.i
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/biblioteca_lib.dir/Autor.cpp.i"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Autor.cpp > CMakeFiles\biblioteca_lib.dir\Autor.cpp.i
 
-src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/biblioteca_lib.dir/Usuario.cpp.s"
-	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Usuario.cpp -o CMakeFiles\biblioteca_lib.dir\Usuario.cpp.s
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/biblioteca_lib.dir/Autor.cpp.s"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Autor.cpp -o CMakeFiles\biblioteca_lib.dir\Autor.cpp.s
+
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/flags.make
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.obj: C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Categoria.cpp
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.obj"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.obj -MF CMakeFiles\biblioteca_lib.dir\Categoria.cpp.obj.d -o CMakeFiles\biblioteca_lib.dir\Categoria.cpp.obj -c C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Categoria.cpp
+
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/biblioteca_lib.dir/Categoria.cpp.i"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Categoria.cpp > CMakeFiles\biblioteca_lib.dir\Categoria.cpp.i
+
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/biblioteca_lib.dir/Categoria.cpp.s"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Categoria.cpp -o CMakeFiles\biblioteca_lib.dir\Categoria.cpp.s
+
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/flags.make
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.obj: C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Ejemplar.cpp
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.obj"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.obj -MF CMakeFiles\biblioteca_lib.dir\Ejemplar.cpp.obj.d -o CMakeFiles\biblioteca_lib.dir\Ejemplar.cpp.obj -c C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Ejemplar.cpp
+
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.i"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Ejemplar.cpp > CMakeFiles\biblioteca_lib.dir\Ejemplar.cpp.i
+
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.s"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Ejemplar.cpp -o CMakeFiles\biblioteca_lib.dir\Ejemplar.cpp.s
 
 src/biblioteca/CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/flags.make
 src/biblioteca/CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj: C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Libro.cpp
 src/biblioteca/CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/biblioteca/CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/biblioteca/CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj"
 	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/biblioteca/CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj -MF CMakeFiles\biblioteca_lib.dir\Libro.cpp.obj.d -o CMakeFiles\biblioteca_lib.dir\Libro.cpp.obj -c C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Libro.cpp
 
 src/biblioteca/CMakeFiles/biblioteca_lib.dir/Libro.cpp.i: cmake_force
@@ -96,19 +124,55 @@ src/biblioteca/CMakeFiles/biblioteca_lib.dir/Libro.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/biblioteca_lib.dir/Libro.cpp.s"
 	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Libro.cpp -o CMakeFiles\biblioteca_lib.dir\Libro.cpp.s
 
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/flags.make
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.obj: C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Prestamo.cpp
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.obj"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.obj -MF CMakeFiles\biblioteca_lib.dir\Prestamo.cpp.obj.d -o CMakeFiles\biblioteca_lib.dir\Prestamo.cpp.obj -c C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Prestamo.cpp
+
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.i"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Prestamo.cpp > CMakeFiles\biblioteca_lib.dir\Prestamo.cpp.i
+
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.s"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Prestamo.cpp -o CMakeFiles\biblioteca_lib.dir\Prestamo.cpp.s
+
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/flags.make
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj: C:/Users/gonza/Desktop/gestion-de-biblioteca/src/biblioteca/Usuario.cpp
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj: src/biblioteca/CMakeFiles/biblioteca_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj -MF CMakeFiles\biblioteca_lib.dir\Usuario.cpp.obj.d -o CMakeFiles\biblioteca_lib.dir\Usuario.cpp.obj -c C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Usuario.cpp
+
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/biblioteca_lib.dir/Usuario.cpp.i"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Usuario.cpp > CMakeFiles\biblioteca_lib.dir\Usuario.cpp.i
+
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/biblioteca_lib.dir/Usuario.cpp.s"
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Usuario.cpp -o CMakeFiles\biblioteca_lib.dir\Usuario.cpp.s
+
 # Object files for target biblioteca_lib
 biblioteca_lib_OBJECTS = \
-"CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj" \
-"CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj"
+"CMakeFiles/biblioteca_lib.dir/Autor.cpp.obj" \
+"CMakeFiles/biblioteca_lib.dir/Categoria.cpp.obj" \
+"CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.obj" \
+"CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj" \
+"CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.obj" \
+"CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj"
 
 # External object files for target biblioteca_lib
 biblioteca_lib_EXTERNAL_OBJECTS =
 
-src/biblioteca/libbiblioteca_lib.a: src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj
+src/biblioteca/libbiblioteca_lib.a: src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.obj
+src/biblioteca/libbiblioteca_lib.a: src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.obj
+src/biblioteca/libbiblioteca_lib.a: src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.obj
 src/biblioteca/libbiblioteca_lib.a: src/biblioteca/CMakeFiles/biblioteca_lib.dir/Libro.cpp.obj
+src/biblioteca/libbiblioteca_lib.a: src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.obj
+src/biblioteca/libbiblioteca_lib.a: src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj
 src/biblioteca/libbiblioteca_lib.a: src/biblioteca/CMakeFiles/biblioteca_lib.dir/build.make
 src/biblioteca/libbiblioteca_lib.a: src/biblioteca/CMakeFiles/biblioteca_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libbiblioteca_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gonza\Desktop\gestion-de-biblioteca\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libbiblioteca_lib.a"
 	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && $(CMAKE_COMMAND) -P CMakeFiles\biblioteca_lib.dir\cmake_clean_target.cmake
 	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build\src\biblioteca && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\biblioteca_lib.dir\link.txt --verbose=$(VERBOSE)
 

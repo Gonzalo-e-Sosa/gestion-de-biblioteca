@@ -1,6 +1,6 @@
-src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj: \
- C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Usuario.cpp \
- C:/Users/gonza/Desktop/gestion-de-biblioteca/include/biblioteca/Usuario.h \
+src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.obj: \
+ C:\Users\gonza\Desktop\gestion-de-biblioteca\src\biblioteca\Autor.cpp \
+ C:/Users/gonza/Desktop/gestion-de-biblioteca/include/biblioteca/Autor.h \
  C:/msys64/mingw64/include/c++/12.1.0/string \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -99,16 +99,4 @@ src/biblioteca/CMakeFiles/biblioteca_lib.dir/Usuario.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.1.0/bits/charconv.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/functional_hash.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/hash_bytes.h \
- C:/msys64/mingw64/include/c++/12.1.0/bits/basic_string.tcc \
- C:/msys64/mingw64/include/c++/12.1.0/stdexcept \
- C:/msys64/mingw64/include/c++/12.1.0/exception \
- C:/msys64/mingw64/include/c++/12.1.0/bits/exception_ptr.h \
- C:/msys64/mingw64/include/c++/12.1.0/bits/cxxabi_init_exception.h \
- C:/msys64/mingw64/include/c++/12.1.0/typeinfo \
- C:/msys64/mingw64/include/c++/12.1.0/bits/nested_exception.h \
- C:/msys64/mingw64/include/c++/12.1.0/algorithm \
- C:/msys64/mingw64/include/c++/12.1.0/bits/stl_algo.h \
- C:/msys64/mingw64/include/c++/12.1.0/bits/algorithmfwd.h \
- C:/msys64/mingw64/include/c++/12.1.0/bits/stl_heap.h \
- C:/msys64/mingw64/include/c++/12.1.0/bits/stl_tempbuf.h \
- C:/msys64/mingw64/include/c++/12.1.0/bits/uniform_int_dist.h
+ C:/msys64/mingw64/include/c++/12.1.0/bits/basic_string.tcc

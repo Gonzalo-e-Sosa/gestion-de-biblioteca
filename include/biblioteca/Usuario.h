@@ -5,15 +5,15 @@ using namespace std;
 class Usuario
 {
 private:
-    int dni;
+    unsigned dni;
     string nombre;
     string correo;
     string clave;
-
+    //fecha fechaCreacion
 public:
     // Inicialización
     Usuario(string dni, string nombre, string correo, string clave);
-    
+    //Usuario(unsigned dni, string nombre, string correo, string clave);
 
     // Getters
     inline int getDni() const { return this->dni; };
@@ -43,6 +43,6 @@ public:
     /*Estos métodos podrían registrar la actividad del usuario, como la hora y fecha de inicio y cierre de sesión, lo cual es útil para auditoría y seguimiento de actividades.*/
 
     // Destructor
-    ~Usuario();
+    //~Usuario();
 };
 

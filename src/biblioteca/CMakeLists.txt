@@ -1,1 +1,1 @@
-add_library(biblioteca_lib Usuario.cpp Libro.cpp)
+add_library(biblioteca_lib Autor.cpp Categoria.cpp Ejemplar.cpp Libro.cpp Prestamo.cpp Usuario.cpp)

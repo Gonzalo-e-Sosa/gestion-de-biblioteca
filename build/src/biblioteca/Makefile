@@ -129,6 +129,78 @@ biblioteca_lib/fast:
 	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/build
 .PHONY : biblioteca_lib/fast
 
+Autor.obj: Autor.cpp.obj
+.PHONY : Autor.obj
+
+# target to build an object file
+Autor.cpp.obj:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.obj
+.PHONY : Autor.cpp.obj
+
+Autor.i: Autor.cpp.i
+.PHONY : Autor.i
+
+# target to preprocess a source file
+Autor.cpp.i:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.i
+.PHONY : Autor.cpp.i
+
+Autor.s: Autor.cpp.s
+.PHONY : Autor.s
+
+# target to generate assembly for a file
+Autor.cpp.s:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Autor.cpp.s
+.PHONY : Autor.cpp.s
+
+Categoria.obj: Categoria.cpp.obj
+.PHONY : Categoria.obj
+
+# target to build an object file
+Categoria.cpp.obj:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.obj
+.PHONY : Categoria.cpp.obj
+
+Categoria.i: Categoria.cpp.i
+.PHONY : Categoria.i
+
+# target to preprocess a source file
+Categoria.cpp.i:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.i
+.PHONY : Categoria.cpp.i
+
+Categoria.s: Categoria.cpp.s
+.PHONY : Categoria.s
+
+# target to generate assembly for a file
+Categoria.cpp.s:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Categoria.cpp.s
+.PHONY : Categoria.cpp.s
+
+Ejemplar.obj: Ejemplar.cpp.obj
+.PHONY : Ejemplar.obj
+
+# target to build an object file
+Ejemplar.cpp.obj:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.obj
+.PHONY : Ejemplar.cpp.obj
+
+Ejemplar.i: Ejemplar.cpp.i
+.PHONY : Ejemplar.i
+
+# target to preprocess a source file
+Ejemplar.cpp.i:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.i
+.PHONY : Ejemplar.cpp.i
+
+Ejemplar.s: Ejemplar.cpp.s
+.PHONY : Ejemplar.s
+
+# target to generate assembly for a file
+Ejemplar.cpp.s:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Ejemplar.cpp.s
+.PHONY : Ejemplar.cpp.s
+
 Libro.obj: Libro.cpp.obj
 .PHONY : Libro.obj
 
@@ -152,6 +224,30 @@ Libro.s: Libro.cpp.s
 Libro.cpp.s:
 	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Libro.cpp.s
 .PHONY : Libro.cpp.s
+
+Prestamo.obj: Prestamo.cpp.obj
+.PHONY : Prestamo.obj
+
+# target to build an object file
+Prestamo.cpp.obj:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.obj
+.PHONY : Prestamo.cpp.obj
+
+Prestamo.i: Prestamo.cpp.i
+.PHONY : Prestamo.i
+
+# target to preprocess a source file
+Prestamo.cpp.i:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.i
+.PHONY : Prestamo.cpp.i
+
+Prestamo.s: Prestamo.cpp.s
+.PHONY : Prestamo.s
+
+# target to generate assembly for a file
+Prestamo.cpp.s:
+	cd /d C:\Users\gonza\Desktop\gestion-de-biblioteca\build && $(MAKE) $(MAKESILENT) -f src\biblioteca\CMakeFiles\biblioteca_lib.dir\build.make src/biblioteca/CMakeFiles/biblioteca_lib.dir/Prestamo.cpp.s
+.PHONY : Prestamo.cpp.s
 
 Usuario.obj: Usuario.cpp.obj
 .PHONY : Usuario.obj
@@ -186,9 +282,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... biblioteca_lib
+	@echo ... Autor.obj
+	@echo ... Autor.i
+	@echo ... Autor.s
+	@echo ... Categoria.obj
+	@echo ... Categoria.i
+	@echo ... Categoria.s
+	@echo ... Ejemplar.obj
+	@echo ... Ejemplar.i
+	@echo ... Ejemplar.s
 	@echo ... Libro.obj
 	@echo ... Libro.i
 	@echo ... Libro.s
+	@echo ... Prestamo.obj
+	@echo ... Prestamo.i
+	@echo ... Prestamo.s
 	@echo ... Usuario.obj
 	@echo ... Usuario.i
 	@echo ... Usuario.s
